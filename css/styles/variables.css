@@ -1,0 +1,82 @@
+:root {
+  /* Colors */
+
+  /* Font & Icon Colors */
+
+  /* Bold Font Color */
+  --clr-white: #fff;
+  /* Non-Bold Font & Icon Color */
+  --clr-light-gray: #949494;
+  /* Bar Toggle-able Button & Remaining Bar Color */
+  --clr-battleship-gray: #848482;
+
+  /* Fill Colors for Other Objects */
+
+  /* Background & Social Banner Color */
+  --clr-black: #000;
+  /* Foreground & Document Color */
+  --clr-carbon-gray: #625d5d;
+  /* Icon and Bar Colors */
+  --clr-lavender: #b2a4d4;
+  --clr-pink: #ffc1cc;
+  --clr-red: #e10600;
+  --clr-orange: #ffa400;
+  --clr-yellow: #ffef00;
+  --clr-teal: #00a4b4;
+  --clr-sky: #00aeef;
+  --clr-light-green: #47bb47;
+
+  /* Dimensions */
+
+  /* Percentages */
+  --prc-100: 100%;
+  --prc-95: 97%;
+  --prc-95: 95%;
+  --prc-90: 90%;
+  --prc-85: 85%;
+  --prc-84: 84%;
+  --prc-82: 82%;
+  --prc-80: 80%;
+
+  /* Fixed Sizes */
+  --sz-sm1: 2px;
+  --sz-sm2: 5px;
+  --sz-med: 20px;
+  /* For Square Profile Photo */
+  --sz-lrg: 200px;
+
+  /* Fonts */
+  /* San-Serif */
+  --ff-ss: sans-serif;
+
+  /* Bold */
+  --bold: bold;
+
+  /* To Uppercase */
+  --uppercase: uppercase;
+
+  /* Line Height Spacing */
+  --line-height-spacing: 1.5;
+
+  /* Flex Properties */
+
+  /* Display: Flex */
+  --flex-display: flex;
+
+  /* flex-direction: Column */
+  --flex-col: column;
+
+  /* Flex-start */
+  --flex-start: flex-start;
+
+  /* Flex-end */
+  --flex-end: flex-end;
+
+  /* Misc Properties */
+
+  /* None Value used to remove bullets 
+  in unordered-list & underlines for
+  hyperlinks */
+
+  --none: none;
+}

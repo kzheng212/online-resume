@@ -1,0 +1,4 @@
+fill-circle.svg = Circle by patin kuning from <a href="https://thenounproject.com/browse/icons/term/circle/" target="_blank" title="Circle Icons">Noun Project</a> (CC BY 3.0)
+
+fill-square.svg = Box by Ezgi Nazlı from <a href="https://thenounproject.com/browse/icons/term/box/" target="_blank" title="Box Icons">Noun Project</a> (CC BY 3.0)
+

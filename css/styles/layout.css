@@ -1,0 +1,392 @@
+@import "./variables.css";
+
+:root {
+  /* Colors */
+
+  /* Font & Icon Colors */
+
+  /* Bold Font Color */
+  --clr-white: #fff;
+  /* Non-Bold Font & Icon Color */
+  --clr-light-gray: #949494;
+  /* Bar Toggle-able Button, Horizontal Line Rule using Border, & Remaining Bar Color */
+  --clr-battleship-gray: #4b4b4a;
+
+  /* Fill Colors for Other Objects */
+
+  /* Background & Social Banner Color */
+  --clr-black: #000;
+  /* Foreground & Document Color */
+  --clr-carbon-gray: #2b2a2a;
+  /* Icon and Bar Colors */
+  --clr-lavender: #b2a4d4;
+  --clr-pink: #ffc1cc;
+  --clr-red: #e10600;
+  --clr-orange: #ffa400;
+  --clr-yellow: #dfd213f0;
+  --clr-teal: #00a4b4;
+  --clr-sky: #00aeef;
+  --clr-light-green: #47bb47;
+
+  --filter-clr-white: invert(100%) sepia(0%) saturate(0%) hue-rotate(65deg)
+    brightness(100%) contrast(103%);
+
+  --filter-clr-light-gray: invert(63%) sepia(4%) saturate(15%) hue-rotate(46deg)
+    brightness(92%) contrast(91%);
+
+  --filter-clr-battleship-gray: invert(57%) sepia(3%) saturate(154%)
+    hue-rotate(22deg) brightness(90%) contrast(92%);
+
+  --filter-clr-lavender: invert(88%) sepia(10%) saturate(3494%)
+    hue-rotate(192deg) brightness(88%) contrast(86%);
+
+  --filter-clr-pink: invert(70%) sepia(92%) saturate(343%) hue-rotate(299deg)
+    brightness(116%) contrast(102%);
+
+  --filter-clr-red: invert(13%) sepia(77%) saturate(5862%) hue-rotate(358deg)
+    brightness(89%) contrast(110%);
+
+  --filter-clr-orange: invert(78%) sepia(31%) saturate(7050%) hue-rotate(360deg)
+    brightness(103%) contrast(104%);
+
+  --filter-clr-yellow: invert(83%) sepia(96%) saturate(7481%) hue-rotate(347deg)
+    brightness(97%) contrast(109%);
+
+  --filter-clr-teal: invert(53%) sepia(36%) saturate(2728%) hue-rotate(160deg)
+    brightness(96%) contrast(103%);
+
+  --filter-clr-sky: invert(49%) sepia(60%) saturate(3267%) hue-rotate(165deg)
+    brightness(102%) contrast(103%);
+
+  --filter-clr-light-green: invert(57%) sepia(89%) saturate(382%)
+    hue-rotate(72deg) brightness(92%) contrast(81%);
+
+  /* Dimensions */
+
+  /* Percentages & Auto */
+  --auto: auto;
+  --prc-100: 100%;
+  --prc-97: 97%;
+  --prc-95: 95%;
+  --prc-90: 90%;
+  --prc-85: 85%;
+  --prc-84: 84%;
+  --prc-82: 82%;
+  --prc-80: 80%;
+  --prc-50: 50%;
+  --prc-20: 20%;
+
+  /* Fixed Sizes */
+  --sz-sm1: 2px;
+  --sz-sm2: 5px;
+  --sz-med: 20px;
+
+  /* Fonts */
+  /* San-Serif */
+  --ff-ss: sans-serif;
+
+  /* Bold */
+  --bold: bold;
+
+  /* To Uppercase */
+  --uppercase: uppercase;
+
+  /* Line Height Spacing */
+  --line-height-spacing: 1.5;
+
+  /* Flex Properties */
+
+  /* Display: Flex */
+  --flex-display: flex;
+
+  /* flex-direction: Column */
+  --flex-col: column;
+
+  /* Flex-start */
+  --flex-start: flex-start;
+
+  /* Flex-end */
+  --flex-end: flex-end;
+
+  /* Space-evenly */
+  --space-evenly: space-evenly;
+
+  /* Misc Properties */
+
+  --center: center;
+
+  --justify: justify;
+
+  /* None Value used to remove bullets 
+  in unordered-list & underlines for
+  hyperlinks */
+
+  --none: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* Fill & Background Colors */
+
+/* Backgrounds (Backgrounds for Containers and Icons) Colors */
+
+/* Background Colors w/o filters */
+.bg-clr-lav {
+  background-color: var(--clr-lavender);
+}
+
+.bg-clr-pink {
+  background-color: var(--clr-pink);
+}
+
+.bg-clr-red {
+  background-color: var(--clr-red);
+}
+
+.bg-clr-orange {
+  background-color: var(--clr-orange);
+}
+
+.bg-clr-yellow {
+  background-color: var(--clr-yellow);
+}
+
+.bg-clr-teal {
+  background-color: var(--clr-teal);
+}
+
+.bg-clr-light-green {
+  background-color: var(--clr-light-green);
+}
+
+.bg-clr-sky {
+  background-color: var(--clr-sky);
+}
+
+.bg-clr-black {
+  background-color: var(--clr-black);
+}
+
+.bg-clr-carbon-gray {
+  background-color: var(--clr-carbon-gray);
+}
+
+.bg-clr-battleship-gray {
+  background-color: var(--clr-battleship-gray);
+}
+
+/* Horizontal Line Rule Colors */
+.bd-clr-battleship-gray {
+  border-color: var(--clr-battleship-gray);
+}
+
+/* Fill Colors */
+
+.clr-battleship-gray {
+  color: var(--clr-battleship-gray);
+}
+
+.clr-white {
+  color: var(--clr-white);
+}
+
+.clr-light-gray {
+  color: var(--clr-light-gray);
+}
+
+.clr-sky {
+  color: var(--clr-sky);
+}
+
+.clr-light-green {
+  color: var(--clr-light-green);
+}
+
+/* Filter Colors for Icons and their respective strokes */
+.filter-clr-light-gray {
+  filter: var(--filter-clr-light-gray);
+}
+
+.filter-clr-pink {
+  filter: var(--filter-clr-pink);
+}
+
+.filter-clr-lav {
+  filter: var(--filter-clr-lavender);
+}
+
+.filter-clr-white {
+  filter: var(--filter-clr-white);
+}
+
+/* Empty Circle with Border */
+.filter-clr-black {
+  filter: var(--filter-clr-black);
+}
+
+/* Typography */
+
+.fw-bold {
+  font-weight: var(--bold);
+}
+
+.tt-uppercase {
+  text-transform: var(--uppercase);
+}
+
+.none {
+  text-decoration: var(--none);
+  list-style-type: var(--none);
+}
+
+/* Sizing */
+
+.w-auto {
+  width: auto;
+}
+
+.w-prc-100 {
+  width: var(--prc-100);
+}
+
+.w-prc-97 {
+  width: var(--prc-97);
+}
+
+.w-prc-95 {
+  width: var(--prc-95);
+}
+
+.w-prc-90 {
+  width: var(--prc-90);
+}
+
+.w-prc-85 {
+  width: var(--prc-85);
+}
+
+.w-prc-84 {
+  width: var(--prc-84);
+}
+
+.w-prc-82 {
+  width: var(--prc-82);
+}
+
+.w-prc-50 {
+  width: var(--prc-50);
+}
+
+.w-prc-20 {
+  width: var(--prc-82);
+}
+
+/* For Square Profile Photo */
+.w-sz-lrg {
+  width: 10rem;
+}
+
+.icon {
+  width: 2.5rem;
+}
+
+.circle {
+  border-radius: var(--prc-50);
+}
+
+/* Font size */
+h2 {
+  font-size: 2.4rem;
+}
+
+p,
+li,
+span {
+  font-size: 1.2rem;
+}
+
+.headline-career {
+  font-size: 1.25rem;
+}
+
+/* Margin */
+.mg-top {
+  margin-top: 1rem;
+}
+
+/* Height */
+.outer-bar,
+.inner-bar {
+  height: 1.5rem;
+}
+
+.h-banner {
+  height: 5rem;
+}
+
+.h-profile {
+  height: 20rem;
+}
+
+/* Padding */
+.resume-padding {
+  padding: 5rem;
+}
+
+/* Button Properties */
+
+/* Flex & Properties */
+.flex {
+  display: var(--flex-display);
+}
+
+.flex-col {
+  flex-direction: var(--flex-col);
+}
+
+.flex-row-h-start,
+.flex-col-v-start {
+  justify-content: var(--flex-start);
+}
+
+.flex-row-h-end,
+.flex-col-v-end {
+  justify-content: var(--flex-end);
+}
+
+.flex-col-h-center,
+.flex-row-v-center {
+  align-items: var(--center);
+}
+
+.flex-row-h-center,
+.flex-col-v-center {
+  justify-content: var(--center);
+}
+
+.flex-row-h-space-between,
+.flex-col-v-space-between {
+  justify-content: space-between;
+}
+
+.flex-row-h-space-evenly,
+.flex-col-v-space-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-row-h-space-around,
+.flex-col-v-space-around {
+  justify-content: space-around;
+}
+
+.flex-row-h-gap-2,
+/* .flex-row-v-gap-2, */
+.flex-col-h-gap-2
+/* .flex-col-v-gap-2  */ {
+  column-gap: 2rem;
+}
